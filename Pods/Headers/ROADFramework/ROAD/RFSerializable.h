@@ -1,0 +1,1 @@
+../../../ROADFramework/Framework/ROADSerialization/ROADSerialization/Attributes/RFSerializable.h

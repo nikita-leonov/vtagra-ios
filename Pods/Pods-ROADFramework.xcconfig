@@ -1,0 +1,2 @@
+PODS_ROADFRAMEWORK_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2"
+PODS_ROADFRAMEWORK_OTHER_LDFLAGS = -ObjC -lxml2 -lz -framework CFNetwork -framework CoreFoundation

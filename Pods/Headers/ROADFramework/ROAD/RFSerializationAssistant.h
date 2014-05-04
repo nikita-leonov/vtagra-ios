@@ -1,0 +1,1 @@
+../../../ROADFramework/Framework/ROADSerialization/ROADSerialization/Assistants/RFSerializationAssistant.h

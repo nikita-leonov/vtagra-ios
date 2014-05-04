@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7613F82E6FF345BA870C7CEE /* ROADGeneratedAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EDBF51F1084AEBB1A21C07 /* ROADGeneratedAttribute.m */; };
+		EE576DBA1914DDEE007BB3AF /* VTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DB91914DDEE007BB3AF /* VTNavigationController.m */; };
+		EE576DBF191558DB007BB3AF /* VTTagPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DBE191558DB007BB3AF /* VTTagPlayerViewController.m */; };
+		EE576DC419156F85007BB3AF /* VTTagsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DC319156F85007BB3AF /* VTTagsTableViewController.m */; };
+		EE576DC719157E3E007BB3AF /* VTTagControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DC619157E3E007BB3AF /* VTTagControl.m */; };
+		EE576DCE191593CF007BB3AF /* VTTagLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DCD191593CF007BB3AF /* VTTagLocation.m */; };
+		EE576DD11915A61D007BB3AF /* VTSearchTagsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DD01915A61D007BB3AF /* VTSearchTagsController.m */; };
+		EE576DD41915A8DB007BB3AF /* VTTag.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DD31915A8DB007BB3AF /* VTTag.m */; };
+		EE576DD71915BAE6007BB3AF /* VTWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DD61915BAE6007BB3AF /* VTWebService.m */; };
+		EE576DDD1915C6C5007BB3AF /* VTLoadingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DDC1915C6C5007BB3AF /* VTLoadingViewCell.m */; };
+		EE576DE01915DEA4007BB3AF /* VTVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DDF1915DEA4007BB3AF /* VTVideo.m */; };
+		EE576DE61915EDEA007BB3AF /* VTSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE576DE51915EDEA007BB3AF /* VTSearchResultCell.m */; };
+		EE78821A191652F90094B43C /* trailer.mov in Resources */ = {isa = PBXBuildFile; fileRef = EE788219191652F90094B43C /* trailer.mov */; };
+		EEA552B4191634A900A035BE /* VTTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA552B3191634A900A035BE /* VTTagViewCell.m */; };
+		EEA552B719163F2D00A035BE /* VTBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA552B619163F2D00A035BE /* VTBrowserViewController.m */; };
+		EEE868FF1914D090008E6841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEE868FD1914D090008E6841 /* InfoPlist.strings */; };
+		EEE869011914D090008E6841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE869001914D090008E6841 /* main.m */; };
+		EEE869051914D090008E6841 /* VTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE869041914D090008E6841 /* VTAppDelegate.m */; };
+		EEE869081914D090008E6841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE869061914D090008E6841 /* Main.storyboard */; };
+		EEE8690B1914D090008E6841 /* VTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE8690A1914D090008E6841 /* VTRootViewController.m */; };
+		EEE8690D1914D090008E6841 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE8690C1914D090008E6841 /* Images.xcassets */; };
+		EEE8691E1914D090008E6841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEE8691C1914D090008E6841 /* InfoPlist.strings */; };
+		EEE869201914D090008E6841 /* vtagraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE8691F1914D090008E6841 /* vtagraTests.m */; };
+		FFA16CC97CF34DE1AB3A5B2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D3FD5FEF746DA95A39A3C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE869171914D090008E6841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE868E91914D090008E6841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE868F01914D090008E6841;
+			remoteInfo = vtagra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DF8F5F42C1A4F83A3173315 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A57D3FD5FEF746DA95A39A3C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EDBF51F1084AEBB1A21C07 /* ROADGeneratedAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ROADGeneratedAttribute.m; path = vtagra/ROADGeneratedAttributes/ROADGeneratedAttribute.m; sourceTree = "<group>"; };
+		EE576DB81914DDEE007BB3AF /* VTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNavigationController.h; sourceTree = "<group>"; };
+		EE576DB91914DDEE007BB3AF /* VTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNavigationController.m; sourceTree = "<group>"; };
+		EE576DBD191558DB007BB3AF /* VTTagPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTagPlayerViewController.h; sourceTree = "<group>"; };
+		EE576DBE191558DB007BB3AF /* VTTagPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTagPlayerViewController.m; sourceTree = "<group>"; };
+		EE576DC219156F85007BB3AF /* VTTagsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTagsTableViewController.h; sourceTree = "<group>"; };
+		EE576DC319156F85007BB3AF /* VTTagsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTagsTableViewController.m; sourceTree = "<group>"; };
+		EE576DC519157E3E007BB3AF /* VTTagControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTagControl.h; sourceTree = "<group>"; };
+		EE576DC619157E3E007BB3AF /* VTTagControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTagControl.m; sourceTree = "<group>"; };
+		EE576DCC191593CF007BB3AF /* VTTagLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTTagLocation.h; path = models/VTTagLocation.h; sourceTree = "<group>"; };
+		EE576DCD191593CF007BB3AF /* VTTagLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTTagLocation.m; path = models/VTTagLocation.m; sourceTree = "<group>"; };
+		EE576DCF1915A61D007BB3AF /* VTSearchTagsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSearchTagsController.h; sourceTree = "<group>"; };
+		EE576DD01915A61D007BB3AF /* VTSearchTagsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSearchTagsController.m; sourceTree = "<group>"; };
+		EE576DD21915A8DB007BB3AF /* VTTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTTag.h; path = models/VTTag.h; sourceTree = "<group>"; };
+		EE576DD31915A8DB007BB3AF /* VTTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTTag.m; path = models/VTTag.m; sourceTree = "<group>"; };
+		EE576DD51915BAE6007BB3AF /* VTWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTWebService.h; sourceTree = "<group>"; };
+		EE576DD61915BAE6007BB3AF /* VTWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTWebService.m; sourceTree = "<group>"; };
+		EE576DD81915BF01007BB3AF /* RFServiceProvider+vtagra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RFServiceProvider+vtagra.h"; sourceTree = "<group>"; };
+		EE576DDB1915C6C5007BB3AF /* VTLoadingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTLoadingViewCell.h; sourceTree = "<group>"; };
+		EE576DDC1915C6C5007BB3AF /* VTLoadingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTLoadingViewCell.m; sourceTree = "<group>"; };
+		EE576DDE1915DEA4007BB3AF /* VTVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTVideo.h; sourceTree = "<group>"; };
+		EE576DDF1915DEA4007BB3AF /* VTVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTVideo.m; sourceTree = "<group>"; };
+		EE576DE41915EDEA007BB3AF /* VTSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSearchResultCell.h; sourceTree = "<group>"; };
+		EE576DE51915EDEA007BB3AF /* VTSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSearchResultCell.m; sourceTree = "<group>"; };
+		EE788219191652F90094B43C /* trailer.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = trailer.mov; sourceTree = "<group>"; };
+		EEA552B2191634A900A035BE /* VTTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTagViewCell.h; sourceTree = "<group>"; };
+		EEA552B3191634A900A035BE /* VTTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTagViewCell.m; sourceTree = "<group>"; };
+		EEA552B519163F2D00A035BE /* VTBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTBrowserViewController.h; sourceTree = "<group>"; };
+		EEA552B619163F2D00A035BE /* VTBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTBrowserViewController.m; sourceTree = "<group>"; };
+		EEE868F11914D090008E6841 /* vtagra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vtagra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE868FC1914D090008E6841 /* vtagra-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vtagra-Info.plist"; sourceTree = "<group>"; };
+		EEE868FE1914D090008E6841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEE869001914D090008E6841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEE869021914D090008E6841 /* vtagra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vtagra-Prefix.pch"; sourceTree = "<group>"; };
+		EEE869031914D090008E6841 /* VTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTAppDelegate.h; sourceTree = "<group>"; };
+		EEE869041914D090008E6841 /* VTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTAppDelegate.m; sourceTree = "<group>"; };
+		EEE869071914D090008E6841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE869091914D090008E6841 /* VTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTRootViewController.h; sourceTree = "<group>"; };
+		EEE8690A1914D090008E6841 /* VTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTRootViewController.m; sourceTree = "<group>"; };
+		EEE8690C1914D090008E6841 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEE869121914D090008E6841 /* vtagraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vtagraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE8691B1914D090008E6841 /* vtagraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vtagraTests-Info.plist"; sourceTree = "<group>"; };
+		EEE8691D1914D090008E6841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEE8691F1914D090008E6841 /* vtagraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vtagraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE868EE1914D090008E6841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA16CC97CF34DE1AB3A5B2E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE8690F1914D090008E6841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE576DC819159375007BB3AF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EE576DCC191593CF007BB3AF /* VTTagLocation.h */,
+				EE576DCD191593CF007BB3AF /* VTTagLocation.m */,
+				EE576DD21915A8DB007BB3AF /* VTTag.h */,
+				EE576DD31915A8DB007BB3AF /* VTTag.m */,
+				EE576DDE1915DEA4007BB3AF /* VTVideo.h */,
+				EE576DDF1915DEA4007BB3AF /* VTVideo.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		EEE868E81914D090008E6841 = {
+			isa = PBXGroup;
+			children = (
+				EEE868FA1914D090008E6841 /* vtagra */,
+				EEE869191914D090008E6841 /* vtagraTests */,
+				EEE868F31914D090008E6841 /* Frameworks */,
+				EEE868F21914D090008E6841 /* Products */,
+				5DF8F5F42C1A4F83A3173315 /* Pods.xcconfig */,
+				B2EDBF51F1084AEBB1A21C07 /* ROADGeneratedAttribute.m */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE868F21914D090008E6841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE868F11914D090008E6841 /* vtagra.app */,
+				EEE869121914D090008E6841 /* vtagraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE868F31914D090008E6841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57D3FD5FEF746DA95A39A3C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE868FA1914D090008E6841 /* vtagra */ = {
+			isa = PBXGroup;
+			children = (
+				EE576DC819159375007BB3AF /* models */,
+				EEE869031914D090008E6841 /* VTAppDelegate.h */,
+				EEE869041914D090008E6841 /* VTAppDelegate.m */,
+				EEE869091914D090008E6841 /* VTRootViewController.h */,
+				EEE8690A1914D090008E6841 /* VTRootViewController.m */,
+				EE576DB81914DDEE007BB3AF /* VTNavigationController.h */,
+				EE576DB91914DDEE007BB3AF /* VTNavigationController.m */,
+				EE576DBD191558DB007BB3AF /* VTTagPlayerViewController.h */,
+				EE576DBE191558DB007BB3AF /* VTTagPlayerViewController.m */,
+				EE576DC219156F85007BB3AF /* VTTagsTableViewController.h */,
+				EE576DC319156F85007BB3AF /* VTTagsTableViewController.m */,
+				EE576DCF1915A61D007BB3AF /* VTSearchTagsController.h */,
+				EE576DD01915A61D007BB3AF /* VTSearchTagsController.m */,
+				EE576DC519157E3E007BB3AF /* VTTagControl.h */,
+				EE576DC619157E3E007BB3AF /* VTTagControl.m */,
+				EE576DD51915BAE6007BB3AF /* VTWebService.h */,
+				EE576DD61915BAE6007BB3AF /* VTWebService.m */,
+				EE576DDB1915C6C5007BB3AF /* VTLoadingViewCell.h */,
+				EE576DDC1915C6C5007BB3AF /* VTLoadingViewCell.m */,
+				EE576DE41915EDEA007BB3AF /* VTSearchResultCell.h */,
+				EE576DE51915EDEA007BB3AF /* VTSearchResultCell.m */,
+				EEA552B2191634A900A035BE /* VTTagViewCell.h */,
+				EEA552B3191634A900A035BE /* VTTagViewCell.m */,
+				EEA552B519163F2D00A035BE /* VTBrowserViewController.h */,
+				EEA552B619163F2D00A035BE /* VTBrowserViewController.m */,
+				EE576DD81915BF01007BB3AF /* RFServiceProvider+vtagra.h */,
+				EEE8690C1914D090008E6841 /* Images.xcassets */,
+				EEE869061914D090008E6841 /* Main.storyboard */,
+				EEE868FB1914D090008E6841 /* Supporting Files */,
+			);
+			path = vtagra;
+			sourceTree = "<group>";
+		};
+		EEE868FB1914D090008E6841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE788219191652F90094B43C /* trailer.mov */,
+				EEE868FC1914D090008E6841 /* vtagra-Info.plist */,
+				EEE868FD1914D090008E6841 /* InfoPlist.strings */,
+				EEE869001914D090008E6841 /* main.m */,
+				EEE869021914D090008E6841 /* vtagra-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEE869191914D090008E6841 /* vtagraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE8691F1914D090008E6841 /* vtagraTests.m */,
+				EEE8691A1914D090008E6841 /* Supporting Files */,
+			);
+			path = vtagraTests;
+			sourceTree = "<group>";
+		};
+		EEE8691A1914D090008E6841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE8691B1914D090008E6841 /* vtagraTests-Info.plist */,
+				EEE8691C1914D090008E6841 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE868F01914D090008E6841 /* vtagra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE869231914D090008E6841 /* Build configuration list for PBXNativeTarget "vtagra" */;
+			buildPhases = (
+				66987D88993E46E68E9026EA /* libObjCAttr - generate attributes */,
+				F34F6B8452734CE5AC42D6CD /* Check Pods Manifest.lock */,
+				EEE868ED1914D090008E6841 /* Sources */,
+				EEE868EE1914D090008E6841 /* Frameworks */,
+				EEE868EF1914D090008E6841 /* Resources */,
+				69E99F1120C34B02A21DC370 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vtagra;
+			productName = vtagra;
+			productReference = EEE868F11914D090008E6841 /* vtagra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE869111914D090008E6841 /* vtagraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE869261914D090008E6841 /* Build configuration list for PBXNativeTarget "vtagraTests" */;
+			buildPhases = (
+				EEE8690E1914D090008E6841 /* Sources */,
+				EEE8690F1914D090008E6841 /* Frameworks */,
+				EEE869101914D090008E6841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE869181914D090008E6841 /* PBXTargetDependency */,
+			);
+			name = vtagraTests;
+			productName = vtagraTests;
+			productReference = EEE869121914D090008E6841 /* vtagraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE868E91914D090008E6841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = vTagra;
+				TargetAttributes = {
+					EEE869111914D090008E6841 = {
+						TestTargetID = EEE868F01914D090008E6841;
+					};
+				};
+			};
+			buildConfigurationList = EEE868EC1914D090008E6841 /* Build configuration list for PBXProject "vtagra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE868E81914D090008E6841;
+			productRefGroup = EEE868F21914D090008E6841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE868F01914D090008E6841 /* vtagra */,
+				EEE869111914D090008E6841 /* vtagraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE868EF1914D090008E6841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE8690D1914D090008E6841 /* Images.xcassets in Resources */,
+				EEE868FF1914D090008E6841 /* InfoPlist.strings in Resources */,
+				EE78821A191652F90094B43C /* trailer.mov in Resources */,
+				EEE869081914D090008E6841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE869101914D090008E6841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE8691E1914D090008E6841 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66987D88993E46E68E9026EA /* libObjCAttr - generate attributes */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "libObjCAttr - generate attributes";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/libObjCAttr/tools/binaries/ROADAttributesCodeGenerator\" -src=\"${SRCROOT}/${TARGET_NAME}\" -src=\"${PODS_ROOT}\" -dst=\"${SRCROOT}/${TARGET_NAME}/ROADGeneratedAttributes/\"";
+		};
+		69E99F1120C34B02A21DC370 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34F6B8452734CE5AC42D6CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE868ED1914D090008E6841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE576DD11915A61D007BB3AF /* VTSearchTagsController.m in Sources */,
+				EE576DCE191593CF007BB3AF /* VTTagLocation.m in Sources */,
+				EE576DD71915BAE6007BB3AF /* VTWebService.m in Sources */,
+				EE576DD41915A8DB007BB3AF /* VTTag.m in Sources */,
+				EEE8690B1914D090008E6841 /* VTRootViewController.m in Sources */,
+				EE576DDD1915C6C5007BB3AF /* VTLoadingViewCell.m in Sources */,
+				EE576DBA1914DDEE007BB3AF /* VTNavigationController.m in Sources */,
+				EE576DC419156F85007BB3AF /* VTTagsTableViewController.m in Sources */,
+				EEE869051914D090008E6841 /* VTAppDelegate.m in Sources */,
+				EE576DC719157E3E007BB3AF /* VTTagControl.m in Sources */,
+				EE576DBF191558DB007BB3AF /* VTTagPlayerViewController.m in Sources */,
+				EEA552B4191634A900A035BE /* VTTagViewCell.m in Sources */,
+				EEA552B719163F2D00A035BE /* VTBrowserViewController.m in Sources */,
+				EEE869011914D090008E6841 /* main.m in Sources */,
+				7613F82E6FF345BA870C7CEE /* ROADGeneratedAttribute.m in Sources */,
+				EE576DE61915EDEA007BB3AF /* VTSearchResultCell.m in Sources */,
+				EE576DE01915DEA4007BB3AF /* VTVideo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE8690E1914D090008E6841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE869201914D090008E6841 /* vtagraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE869181914D090008E6841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE868F01914D090008E6841 /* vtagra */;
+			targetProxy = EEE869171914D090008E6841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE868FD1914D090008E6841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE868FE1914D090008E6841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEE869061914D090008E6841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE869071914D090008E6841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE8691C1914D090008E6841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE8691D1914D090008E6841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE869211914D090008E6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEE869221914D090008E6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE869241914D090008E6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF8F5F42C1A4F83A3173315 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vtagra/vtagra-Prefix.pch";
+				INFOPLIST_FILE = "vtagra/vtagra-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEE869251914D090008E6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF8F5F42C1A4F83A3173315 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vtagra/vtagra-Prefix.pch";
+				INFOPLIST_FILE = "vtagra/vtagra-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEE869271914D090008E6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vtagra.app/vtagra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vtagra/vtagra-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vtagraTests/vtagraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EEE869281914D090008E6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vtagra.app/vtagra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vtagra/vtagra-Prefix.pch";
+				INFOPLIST_FILE = "vtagraTests/vtagraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE868EC1914D090008E6841 /* Build configuration list for PBXProject "vtagra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE869211914D090008E6841 /* Debug */,
+				EEE869221914D090008E6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE869231914D090008E6841 /* Build configuration list for PBXNativeTarget "vtagra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE869241914D090008E6841 /* Debug */,
+				EEE869251914D090008E6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE869261914D090008E6841 /* Build configuration list for PBXNativeTarget "vtagraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE869271914D090008E6841 /* Debug */,
+				EEE869281914D090008E6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE868E91914D090008E6841 /* Project object */;
+}

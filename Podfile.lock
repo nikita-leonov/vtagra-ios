@@ -1,0 +1,38 @@
+PODS:
+  - libObjCAttr (1.3.0)
+  - PixateFreestyle (2.1.3)
+  - REFrostedViewController (2.4.5)
+  - ROADFramework (1.3.2):
+    - ROADFramework/ROADCore
+    - ROADFramework/ROADSerialization
+    - ROADFramework/ROADServices
+    - ROADFramework/ROADWebService
+  - ROADFramework/ROADCore (1.3.2):
+    - libObjCAttr (~> 1.3.0)
+  - ROADFramework/ROADSerialization (1.3.2):
+    - ROADFramework/ROADCore
+    - ROADFramework/ROADServices
+  - ROADFramework/ROADServices (1.3.2):
+    - ROADFramework/ROADCore
+  - ROADFramework/ROADWebService (1.3.2):
+    - ROADFramework/ROADCore
+    - ROADFramework/ROADSerialization
+    - ROADFramework/ROADServices
+  - SDWebImage (3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.6)
+
+DEPENDENCIES:
+  - PixateFreestyle (~> 2.1.2)
+  - REFrostedViewController (~> 2.4.5)
+  - ROADFramework (~> 1.3.2)
+  - SDWebImage (~> 3.6)
+
+SPEC CHECKSUMS:
+  libObjCAttr: 3b4caf96ea3c2158c9d5aeb0139b0f251e379d0c
+  PixateFreestyle: 0fbb5ce9b73beb074ed6b548289e81b2e63dce5f
+  REFrostedViewController: ab017bbd8d8ab3b23615ef308707711d8576999b
+  ROADFramework: 9f615187333ecdde0393d22b710a4ee50a972856
+  SDWebImage: 7eb273e54ca8a2e506ad9bd5e80c35b2a4d7c95e
+
+COCOAPODS: 0.32.1

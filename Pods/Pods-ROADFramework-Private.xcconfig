@@ -1,0 +1,5 @@
+#include "Pods-ROADFramework.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ROADFramework" "${PODS_ROOT}/BuildHeaders/ROADFramework/ROAD" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/PixateFreestyle" "${PODS_ROOT}/Headers/REFrostedViewController" "${PODS_ROOT}/Headers/ROADFramework" "${PODS_ROOT}/Headers/ROADFramework/ROAD" "${PODS_ROOT}/Headers/SDWebImage" "${PODS_ROOT}/Headers/libObjCAttr" "${PODS_ROOT}/Headers/libObjCAttr/ROAD" ${PODS_ROADFRAMEWORK_HEADER_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_ROADFRAMEWORK_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
